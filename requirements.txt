@@ -1,4 +1,4 @@
-Django==2.1.2
+Django==2.1.5
 django-debug-toolbar==1.10.1
 python-decouple==3.1
 pytz==2018.5
