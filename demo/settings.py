@@ -65,7 +65,7 @@ DATABASES = {
 }
 
 if ENVIRONMENT == 'production':
-    DEBUG = True
+    DEBUG = False
     SECRET_KEY = os.getenv('SECRET_KEY')
     SESSION_COOKIE_SECURE = True
     SECURE_BROWSER_XSS_FILTER = True
